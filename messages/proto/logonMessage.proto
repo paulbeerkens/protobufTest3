@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package PaulsNamespace;
+
+message LogOnMessage {
+    string userName=1;
+    string hostName=2;
+    int32 tag=3;
+}
